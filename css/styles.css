@@ -90,6 +90,10 @@ img {
   margin: 0 auto;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 .main-btn {
   font-weight: 500;
   background-color: var(--accent-color);
@@ -112,6 +116,7 @@ img {
 /* header styles */
 .header {
   padding: 24px 0;
+  border-bottom: 1px solid rgba(231, 233, 252, 1);
 }
 
 .header .container {
@@ -184,10 +189,6 @@ img {
 }
 
 /* section 2 styles */
-.second-section {
-  padding: 120px 0;
-}
-
 .second-section-title {
   display: none;
 }
@@ -213,7 +214,6 @@ img {
 
 .third-section {
   background-color: var(--background-secondary-color);
-  padding: 120px 0;
 }
 
 .third-section-title {
@@ -252,10 +252,6 @@ img {
 
 /* section 4 styles */
 
-.fourth-section {
-  padding: 120px 0;
-}
-
 .fourth-section-title {
   text-align: center;
 }
@@ -269,11 +265,11 @@ img {
 
 .portfolio-item {
   width: calc((100% - 24px * 2) / 3);
-  border: 1px solid rgba(231, 233, 252, 1);
 }
 
 .portfolio-item-content {
   padding: 32px 16px;
+  border: 1px solid rgba(231, 233, 252, 1);
 }
 
 /* NOTE: added these empty classes because of validator */
